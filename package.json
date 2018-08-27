@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-testin",
+  "version": "1.0.0",
+  "description": "### testin-data eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testin/eslint-config-testin.git"
+  },
+  "keywords": [],
+  "author": "g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testin/eslint-config-testin/issues"
+  },
+  "homepage": "https://github.com/testin/eslint-config-testin#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
