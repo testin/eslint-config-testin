@@ -1,4 +1,4 @@
-# [testin ESLint 规则]()
+# testin ESLint 规则
 
 [![npm package](https://img.shields.io/npm/v/eslint-config-testin.svg)](https://www.npmjs.com/package/eslint-config-testin) [![npm downloads](http://img.shields.io/npm/dm/eslint-config-testin.svg)](https://www.npmjs.org/package/eslint-config-testin)
 
