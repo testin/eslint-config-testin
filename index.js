@@ -1,7 +1,9 @@
 module.exports = {
   root         : true,
   parserOptions: {
-    parser: 'babel-eslint'
+    parser     : 'babel-eslint',
+    ecmaVersion: 2018,
+    sourceType : 'module'
   },
   env: {
     browser: true,
@@ -166,7 +168,7 @@ module.exports = {
     'object-curly-spacing'         : ['error', 'always', { 'arraysInObjects': true, 'objectsInObjects': false }],
     'object-property-newline'      : ['error', { 'allowMultiplePropertiesPerLine': true }],
     'one-var'                      : ['error', { 'initialized': 'never' }],
-    'operator-linebreak'           : ['error', 'after', { 'overrides': { '?': 'before', ':': 'before' }}],
+    'operator-linebreak'           : ['error', 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
     'padded-blocks'                : ['error', { 'blocks': 'never', 'switches': 'never', 'classes': 'never' }],
     'prefer-promise-reject-errors' : 'error',
     'quotes'                       : ['error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }],
