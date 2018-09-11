@@ -9,8 +9,12 @@
     "type": "git",
     "url": "git+https://github.com/testin/eslint-config-testin.git"
   },
-  "keywords": [],
-  "author": "g",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "testin"
+  ],
+  "author": "abtest@testin.cn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/testin/eslint-config-testin/issues"
